@@ -1,0 +1,377 @@
+@media only screen and (max-width: 1200px) {
+    .footer-div-text {
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .custom-menu-bar {
+        margin-left: 15px;
+    }
+    .Custom-Button-Hide {
+        display: none;
+    }
+    .nav-custom-link-top {
+        border-top: transparent !important;
+    }
+    .Forth-section img {
+        max-width: 100%;
+    }
+    .custom-dropdown-menu {
+        background-color: transparent !important;
+        border: 0 !important;
+    }
+    .custom-color {
+        font-family: 'Open Sans', sans-serif !important;
+        font-size: 16px !important;
+        color: white !important;
+        font-weight: 400 !important;
+        border-bottom: 0 !important;
+    }
+    .custom-color svg {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .last-footer-link {
+        padding-bottom: 30px;
+    }
+    .Forth-section img {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .Second-Section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .green-section-heading {
+        font-size: 48px !important;
+    }
+    .Forth-section img {
+        max-width: 100%;
+    }
+    .Forth-section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .card-margin {
+        margin-bottom: 15px;
+    }
+    .Third-Section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .card-custom-1 {
+        margin-bottom: 15px;
+        height: 100% !important;
+    }
+    .card-custom-2 {
+        margin-bottom: 15px;
+        height: 100% !important;
+    }
+    .card-custom-3 {
+        margin-bottom: 15px;
+        height: 100% !important;
+    }
+    .card-custom-4 {
+        margin-bottom: 15px;
+        height: 100% !important;
+    }
+    #hero {
+        padding-bottom: 50px;
+    }
+    .footer-heading {
+        font-size: 40px !important;
+    }
+}
+header {
+    background-image: url("Hero\ Background.png");
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.NavBarBackgorund {
+    background-color: #191629;
+    padding: 10px;
+}
+.Custom-Button {
+    background-color: #19e082;
+    color: #3e256f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 40px 10px 40px;
+}
+.nav-custom-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.nav-custom-link-top:hover {
+    border-top: solid 2px #19e082;
+}
+.custom-dropdown-menu {
+    background-color: #19e082;
+}
+.custom-color {
+    background-color: transparent !important;
+    font-size: 15px;
+    color: #2F1956;
+    border-bottom: 1px solid #2F1956;
+    padding: 10px;
+    font-weight: 500;
+}
+.custom-color:hover {
+    background-color: transparent !important;
+    color: white;
+}
+.floating-btn {
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+}
+#hero {
+    padding-top: 250px;
+}
+#hero h1 {
+    color: white;
+    font-size: 48px;
+    font-family: inherit;
+}
+#hero p {
+    color: white;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+.Second-Section {
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+h2 {
+    color: #3e256f;
+    font-size: 36px;
+}
+.section-light-paragraph {
+    margin: 0;
+}
+.section-custom-button {
+    display: inline-block;
+    position: relative;
+    color: #3e256f;
+    background-color: transparent;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    min-width: 180px;
+    overflow: hidden;
+}
+.section-custom-button::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #19e082;
+    transform-origin: left;
+}
+.section-custom-button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #3e256f;
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transform: scaleX(0);
+}
+.section-custom-button:hover::after {
+    background-color: #3e256f;
+    transform: scaleX(1);
+}
+.second-section-purple-text {
+    color: #3e256f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.second-section-paragraph-right {
+    font-family: 'Open Sans', sans-serif;
+    color: #191629;
+    font-size: 16px;
+    line-height: 32px;
+}
+.Third-Section {
+    padding-bottom: 100px;
+}
+.third-section-icon {
+    width: 64px;
+    transition: transform 0.3s ease-in-out;
+}
+.card-custom {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 0 1px transparent;
+    position: relative;
+    z-index: 1;
+}
+.card-custom:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 1px #19e082;
+    z-index: 2;
+}
+.third-section-text h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3e256f;
+}
+.third-section-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #3e256f;
+}
+.card-custom-vertical {
+    padding: 10px;
+}
+.Forth-section {
+    background-image: url("main-section.png");
+    background-size: cover;
+}
+.Forth-section h2 {
+    font-family: inherit;
+    font-size: 48px;
+    color: white;
+}
+.Forth-section-paragraph {
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.forth-section-button {
+    color: white;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    min-width: 180px;
+    overflow: hidden;
+}
+.forth-section-button::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #19e082;
+    transform-origin: left;
+}
+.forth-section-button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transform: scaleX(0);
+}
+.forth-section-button:hover::after {
+    background-color: white;
+    transform: scaleX(1);
+}
+.Forth-section-margin {
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+.Green-Section {
+    background-image: url("Green\ Section.jpg");
+    background-size: cover;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+.green-section-heading {
+    color: white;
+    font-size: 56px;
+    line-height: 50px;
+}
+footer {
+    background-image: url("Footer.jpg");
+    background-size: cover;
+}
+.footer-heading {
+    font-size: 48px;
+    color: white;
+    font-family: inherit;
+    font-weight: 800;
+}
+.footer-subtitle-link {
+    color: #19e082;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.footer-subtitle-link:hover {
+    text-decoration: underline;
+}
+.footer-second-section {
+    border-top: 1px solid #9589ad;
+    border-bottom: 1px solid #9589ad;
+}
+.footer-rights {
+    font-size: 14px;
+    color: #726d8c;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.footer-link {
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #3e256f;
+}
+.footer-list-link {
+    text-decoration: none;
+    color: #726d8c;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+.footer-list-link svg {
+    fill: #19e082;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.footer-list-link span:hover {
+    color: #9589ad; 
+    font-size: 12.5px;
+}

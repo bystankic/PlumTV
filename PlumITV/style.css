@@ -1,0 +1,554 @@
+@media only screen and (max-width: 1200px) {
+    .footer-div-text {
+        padding-bottom: 30px;
+    }
+    #hero {
+        margin-top: 10%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .NavBarBackgorund {
+        background-color: rgba(0, 0, 0, 0.192);
+    }
+    .custom-menu-bar {
+        margin-left: 15px;
+    }
+    .Custom-Button-Hide {
+        display: none;
+    }
+    .forth-section-img img{
+        width: 100%;
+    }
+    .sixth-section-column {
+        margin-top: 3rem !important;
+    }
+    .card-custom-3 {
+        border-right: 1px solid #9589ad;
+    }
+    .card-custom-4 {
+        border-top: transparent !important;
+    }
+    h1 {
+        margin-top: 10%;
+    }
+    .nav-custom-link-top {
+        border-top: transparent !important;
+    }
+    .custom-slider {
+        min-height: 300px;
+    }
+    #hero {
+        margin-top: 0%;
+    }
+    header {
+        min-height: 115vh !important;
+    }
+    .custom-dropdown-menu {
+        background-color: transparent !important;
+        border: 0 !important;
+    }
+    .custom-color {
+        font-family: 'Open Sans', sans-serif !important;
+        font-size: 16px !important;
+        color: white !important;
+        font-weight: 400 !important;
+        border-bottom: 0 !important;
+    }
+    .custom-color svg {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card-custom-3 {
+        border-left: 1px solid #9589ad;
+        border-top: transparent !important;
+        border-right: transparent;
+    }
+    .last-footer-link {
+        padding-bottom: 30px;
+    }
+    .custom-slider {
+        min-height: 375px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .card-custom-2 {
+        border-left: 1px solid #9589ad;
+        border-top: transparent !important;
+    }
+    .card-custom-3 {
+        border-right: 1px solid #9589ad;
+    }
+    .Second-Section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .Third-Section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .Fourth-Section {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .Fifth-Section {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .custom-slider {
+        min-height: 450px;
+    }
+    .Sixth-Section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .card-margin {
+        margin-bottom: 15px;
+    }
+    .footer-heading {
+        font-size: 40px !important;
+    }
+}
+header {
+    background-image: url("Hero\ Background.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 5%;
+}
+.NavBarBackgorund {
+    padding: 10px;
+}
+#hero {
+    padding-top: 15%;
+}
+h1 {
+    font-family: inherit;
+    font-size: 48px;
+}
+.Hero-Subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.Custom-Button {
+    background-color: #19e082;
+    color: #3e256f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 40px 10px 40px;
+}
+.nav-custom-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.nav-custom-link-top:hover {
+    border-top: solid 2px #19e082;
+}
+.custom-dropdown-menu {
+    background-color: #19e082;
+}
+.custom-color {
+    background-color: transparent !important;
+    font-size: 15px;
+    color: #2F1956;
+    border-bottom: 1px solid #2F1956;
+    padding: 10px;
+    font-weight: 500;
+}
+.custom-color:hover {
+    background-color: transparent !important;
+    color: white;
+}
+.floating-btn {
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+}
+.Second-Section {
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+h2 {
+    color: #3e256f;
+    font-size: 36px;
+}
+.section-light-paragraph {
+    margin: 0;
+}
+.section-custom-button {
+    display: inline-block;
+    position: relative;
+    color: #3e256f;
+    background-color: transparent;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    min-width: 180px;
+    overflow: hidden;
+}
+.section-custom-button::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #19e082;
+    transform-origin: left;
+}
+.section-custom-button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #3e256f;
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transform: scaleX(0);
+}
+.section-custom-button:hover::after {
+    background-color: #3e256f;
+    transform: scaleX(1);
+}
+.second-section-purple-text {
+    color: #3e256f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.second-section-paragraph-right {
+    font-family: 'Open Sans', sans-serif;
+    color: #191629;
+    font-size: 16px;
+    line-height: 32px;
+}
+.Third-Section {
+    padding-bottom: 100px;
+}
+.third-section-icon {
+    width: 80px;
+    transition: transform 0.3s ease-in-out;
+}
+.card-custom {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 0 1px transparent;
+    position: relative;
+    z-index: 1;
+}
+.card-custom:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 1px #19e082;
+    z-index: 2;
+}
+.third-section-text h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3e256f;
+}
+.third-section-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #3e256f;
+}
+.card-custom-vertical {
+    padding: 10px;
+}
+.plum-products {
+    background-image: url("PageProducts.jpg");
+    border-radius: 15px;
+    background-size: cover;
+}
+.forth-section-heading {
+    color: white;
+    font-size: 36px;
+    font-family: inherit;
+    line-height: 1;
+
+}
+.forth-section-subtitle {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    color: white;
+}
+.forth-section-button {
+    color: white;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    min-width: 180px;
+    overflow: hidden;
+}
+.forth-section-button::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #19e082;
+    transform-origin: left;
+}
+.forth-section-button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transform: scaleX(0);
+}
+.forth-section-button:hover::after {
+    background-color: white;
+    transform: scaleX(1);
+}
+.forth-section-link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+}
+.forth-section-img {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+.fourth-section-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+.forth-section-link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+.forth-section-link svg {
+    fill: #19e082;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.forth-section-link:hover {
+    color: #19e082; 
+    transform: translateX(10px); 
+}
+.fifth-section-left-column {
+    background-image: url("Plum\ Solution.png");
+    background-size: cover;
+    border-radius: 20px;
+}
+.fifth-section-heading {
+    color: white;
+    font-family: inherit;
+    line-height: 1;
+    font-size: 28px;
+}
+.fifth-section-paragraph {
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.fifth-section-link {
+    color: white;
+    text-decoration: none;
+}
+.navodnici {
+    color: #19e082;
+    font-size: 56px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+}
+.quote {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #3e256f;
+    font-family: "Noto Serif", serif;
+}
+.author {
+    color: #19e082;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2.1;
+    font-family: "Noto Serif", serif;
+}
+.sixth-section-paragraph {
+    font-size: 14px;
+    line-height: 18px;
+}
+.sixth-section-paragraph-new {
+    font-size: 16px;
+    line-height: 32px;
+}
+.andorid-box {
+    background-image: url("AndroidBox.jpg");
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.andorid-box-heading {
+    color: white;
+    font-size: 48px;
+    line-height: 50px;
+    font-family: inherit;
+}
+.andorid-box-green {
+    color: #19e082;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.andorid-box-white {
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.andorid-box-img {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+.andorid-box-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+.news-clients {
+    background-image: url("Client\ Background.jpg");
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.news-clients-heading {
+    color: white;
+    font-family: inherit;
+    font-size: 36px;
+}
+.card-custom-1 {
+    border: 1px solid #9589ad;
+    border-radius: 0;
+    height: 300px;
+}
+.card-custom-2 {
+    border-top: 1px solid #9589ad;
+    border-bottom: 1px solid #9589ad;
+    border-right: 1px solid #9589ad;
+    border-radius: 0;
+    height: 300px;
+}
+.card-custom-3 {
+    border-top: 1px solid #9589ad;
+    border-bottom: 1px solid #9589ad;
+    border-radius: 0;
+    height: 300px;
+}
+.card-custom-4 {
+    border: 1px solid #9589ad;
+    border-radius: 0;
+    height: 300px;
+}
+.news-clients-card-heading {
+    color: white;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+.news-clients-card-subtitle {
+    color: #19e082;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+footer {
+    background-image: url("Footer.jpg");
+    background-size: cover;
+}
+.footer-heading {
+    font-size: 48px;
+    color: white;
+    font-family: inherit;
+    font-weight: 800;
+}
+.footer-subtitle-link {
+    color: #19e082;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.footer-subtitle-link:hover {
+    text-decoration: underline;
+}
+.footer-second-section {
+    border-top: 1px solid #9589ad;
+    border-bottom: 1px solid #9589ad;
+}
+.footer-rights {
+    font-size: 14px;
+    color: #726d8c;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.footer-link {
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #3e256f;
+}
+.footer-list-link {
+    text-decoration: none;
+    color: #726d8c;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+.footer-list-link svg {
+    fill: #19e082;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.footer-list-link span:hover {
+    color: #9589ad; 
+    font-size: 12.5px;
+}

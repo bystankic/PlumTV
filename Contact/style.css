@@ -1,0 +1,316 @@
+@media only screen and (max-width: 1200px) {
+    .footer-div-text {
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .custom-menu-bar {
+        margin-left: 15px;
+    }
+    .Custom-Button-Hide {
+        display: none;
+    }
+    .nav-custom-link-top {
+        border-top: transparent !important;
+    }
+    header {
+        position: static !important;
+    }
+    .Main-Forma {
+        position: static !important;
+        margin-top: 100px !important;
+        margin-bottom: -50px !important;
+    }
+    header {
+        background-position: 70% center;
+    }
+    .custom-dropdown-menu {
+        background-color: transparent !important;
+        border: 0 !important;
+    }
+    .custom-color {
+        font-family: 'Open Sans', sans-serif !important;
+        font-size: 16px !important;
+        color: white !important;
+        font-weight: 400 !important;
+        border-bottom: 0 !important;
+    }
+    .custom-color svg {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #hero img {
+        max-width: 100%;
+    }
+    .last-footer-link {
+        padding-bottom: 30px;
+    }
+    #email-label {
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .card-custom-1 {
+        margin-bottom: 15px;
+        height: 100% !important;
+    }
+    .card-custom-2 {
+        margin-bottom: 15px;
+        height: 100% !important;
+    }
+    .card-custom-3 {
+        margin-bottom: 15px;
+        height: 100% !important;
+    }
+    .card-custom-4 {
+        margin-bottom: 15px;
+        height: 100% !important;
+    }
+    .green-section-heading {
+        font-size: 48px !important;
+    }
+    .footer-heading {
+        font-size: 40px !important;
+    }
+}
+header {
+    background-image: url("Hero\ Backgorund.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 10%;
+}
+.NavBarBackgorund {
+    background-color: #191629;
+    padding: 10px;
+}
+.Custom-Button {
+    background-color: #19e082;
+    color: #3e256f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 40px 10px 40px;
+}
+.nav-custom-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.nav-custom-link-top:hover {
+    border-top: solid 2px #19e082;
+}
+.custom-dropdown-menu {
+    background-color: #19e082;
+}
+.custom-color {
+    background-color: transparent !important;
+    font-size: 15px;
+    color: #2F1956;
+    border-bottom: 1px solid #2F1956;
+    padding: 10px;
+    font-weight: 500;
+}
+.custom-color:hover {
+    background-color: transparent !important;
+    color: white;
+}
+.hero-pretitle {
+    color: #19e082;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+.hero-heading {
+    color: white;
+    font-family: inherit;
+    font-size: 48px;
+    line-height: 50px;
+}
+.hero-paragraph {
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+#hero {
+    padding-top: 10%;
+}
+.floating-btn {
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+}
+.Main-Section {
+    background-image: url("Main\ Section.png");
+    background-size: cover;
+    padding-bottom: 180px;
+}
+.Main-Forma {
+    position: relative;
+    background-color: #191629;
+    border-radius: 20px;
+    margin-top: -300px;
+    z-index: 999;
+}
+.form-label {
+    font-size: 14px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.input-custom {
+    background-color: #191629;
+    color: white;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 10px 0;
+    height: auto;
+    border: 0;
+    border-bottom: 2px solid white;
+    font-weight: 700;
+}
+.input-custom::placeholder {
+    color: white;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+}
+.input-custom:focus {
+    background-color: #191629;
+    box-shadow: none;
+    border-bottom: 2px solid #19e082;
+    color: white;
+}
+.dropdown-custom {
+    background-color: #191629;
+    color: white;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 10px 0;
+    height: auto;
+    border: 0;
+    border-bottom: 2px solid white;
+    font-weight: 700;
+}
+.dropdown-custom::placeholder {
+    color: white;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+}
+.dropdown-custom:focus {
+    background-color: #191629;
+    box-shadow: none;
+    border-bottom: 2px solid #19e082;
+    color: white;
+}
+.textarea-custom {
+    background-color: #191629;
+    color: white;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 10px 0;
+    height: auto;
+    border: 0;
+    border: 2px solid white;
+    font-weight: 700;
+    padding-left: 15px;
+}
+.textarea-custom::placeholder {
+    color: white;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+}
+.textarea-custom:focus {
+    background-color: #191629;
+    box-shadow: none;
+    border: 2px solid #19e082;
+    color: white;
+}
+.erorr-text {
+    color: #19e082;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+.Green-Section {
+    background-image: url("Green\ Section.jpg");
+    background-size: cover;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+.green-section-heading {
+    color: white;
+    font-size: 56px;
+    line-height: 50px;
+}
+footer {
+    background-image: url("Footer.jpg");
+    background-size: cover;
+}
+.footer-heading {
+    font-size: 48px;
+    color: white;
+    font-family: inherit;
+    font-weight: 800;
+}
+.footer-subtitle-link {
+    color: #19e082;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.footer-subtitle-link:hover {
+    text-decoration: underline;
+}
+.footer-second-section {
+    border-top: 1px solid #9589ad;
+    border-bottom: 1px solid #9589ad;
+}
+.footer-rights {
+    font-size: 14px;
+    color: #726d8c;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.footer-link {
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #3e256f;
+}
+.footer-list-link {
+    text-decoration: none;
+    color: #726d8c;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+.footer-list-link svg {
+    fill: #19e082;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.footer-list-link span:hover {
+    color: #9589ad; 
+    font-size: 12.5px;
+}

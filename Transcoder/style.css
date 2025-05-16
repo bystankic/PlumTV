@@ -1,0 +1,372 @@
+@media only screen and (max-width: 1200px) {
+    .footer-div-text {
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .NavBarBackgorund {
+        background-color: rgba(0, 0, 0, 0.192);
+    }
+    .custom-menu-bar {
+        margin-left: 15px;
+    }
+    .Custom-Button-Hide {
+        display: none;
+    }
+    .nav-custom-link-top {
+        border-top: transparent !important;
+    }
+    #hero img {
+        max-width: 100%;
+    }
+    .third-section-first-column {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .third-section-second-column {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .custom-dropdown-menu {
+        background-color: transparent !important;
+        border: 0 !important;
+    }
+    .custom-color {
+        font-family: 'Open Sans', sans-serif !important;
+        font-size: 16px !important;
+        color: white !important;
+        font-weight: 400 !important;
+        border-bottom: 0 !important;
+    }
+    .custom-color svg {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #hero img {
+        max-width: 100%;
+    }
+    .last-footer-link {
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    #hero img {
+        max-width: 100%;
+    }
+    .third-section-first-column {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .third-section-second-column {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .fourth-section-heading {
+        font-size: 48px !important;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .card-custom-1 {
+        margin-bottom: 15px;
+        height: 100% !important;
+    }
+    .card-custom-2 {
+        margin-bottom: 15px;
+        height: 100% !important;
+    }
+    .card-custom-3 {
+        margin-bottom: 15px;
+        height: 100% !important;
+    }
+    .card-custom-4 {
+        margin-bottom: 15px;
+        height: 100% !important;
+    }
+    .footer-heading {
+        font-size: 40px !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .third-section-second-column img {
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .third-section-first-column img {
+        margin-bottom: 30px;
+    }
+}
+header {
+    background-image: url("Transcoder\ Background.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+.NavBarBackgorund {
+    padding: 10px;
+}
+.Custom-Button {
+    background-color: #19e082;
+    color: #3e256f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 40px 10px 40px;
+}
+.nav-custom-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.nav-custom-link-top:hover {
+    border-top: solid 2px #19e082;
+}
+.custom-dropdown-menu {
+    background-color: #19e082;
+}
+.custom-color {
+    background-color: transparent !important;
+    font-size: 15px;
+    color: #2F1956;
+    border-bottom: 1px solid #2F1956;
+    padding: 10px;
+    font-weight: 500;
+}
+.custom-color:hover {
+    background-color: transparent !important;
+    color: white;
+}
+#hero {
+    padding-top: 7%;
+}
+h1 {
+    font-family: inherit;
+    font-size: 48px;
+    color: white;
+}
+.hero-paragraph {
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.floating-btn {
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+}
+.forth-section-button {
+    color: white;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    min-width: 180px;
+    overflow: hidden;
+}
+.forth-section-button::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #19e082;
+    transform-origin: left;
+}
+.forth-section-button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transform: scaleX(0);
+}
+.forth-section-button:hover::after {
+    background-color: white;
+    transform: scaleX(1);
+}
+.Main-Section {
+    background-image: url("Body\ Section.jpg");
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+.main-section-heading {
+    color: #3e256f;
+    font-size: 36px;
+    font-family: inherit;
+}
+.main-section-paragraph {
+    color: black;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: -5px;
+}
+.second-section {
+    margin-bottom: 140px;
+}
+.custom-card-group {
+    margin-bottom: 100px;
+}
+.card-number {
+    color: #19e082;
+    font-size: 72px;
+    line-height: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-heading {
+    margin-top: 20px;
+    color: #3e256f;
+    font-size: 18px;
+    font-family: inherit;
+}
+.card-subtitle {
+    font-size: 14px;
+    line-height: 18px;
+    color: #3e256f;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-custom-1 {
+    padding: 40px;
+    padding-top: 60px !important;
+    height: 300px;
+    border-radius: 0px;
+}
+.card-custom-2 {
+    padding: 40px;
+    padding-top: 60px !important;
+    height: 300px;
+    border-radius: 0px;
+}
+.card-custom-3 {
+    padding: 40px;
+    padding-top: 60px !important;
+    height: 300px;
+    border-radius: 0px;
+}
+.card-custom-4 {
+    padding: 40px;
+    padding-top: 60px !important;
+    height: 300px;
+    border-radius: 0px;
+}
+.pretitle-card-group {
+    font-size: 18px;
+    font-family: inherit;
+    color: #3e256f;
+}
+.Third-Section {
+    background-image: url("Plum\ Products\ Background.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.Third-Section img {
+    width: 222px;
+    height: auto;
+}
+.third-section-heading {
+    color: white;
+    font-size: 28px;
+    font-family: inherit;
+}
+.Fourth-Section {
+    background-image: url("Green\ Section.jpg");
+    background-size: cover;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+.fourth-section-heading {
+    color: white;
+    font-size: 56px;
+    line-height: 50px;
+}
+.third-section-first-column {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.third-section-second-column {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer {
+    background-image: url("Footer.jpg");
+    background-size: cover;
+}
+.footer-heading {
+    font-size: 48px;
+    color: white;
+    font-family: inherit;
+    font-weight: 800;
+}
+.footer-subtitle-link {
+    color: #19e082;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.footer-subtitle-link:hover {
+    text-decoration: underline;
+}
+.footer-second-section {
+    border-top: 1px solid #9589ad;
+    border-bottom: 1px solid #9589ad;
+}
+.footer-rights {
+    font-size: 14px;
+    color: #726d8c;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.footer-link {
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #3e256f;
+}
+.footer-list-link {
+    text-decoration: none;
+    color: #726d8c;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+.footer-list-link svg {
+    fill: #19e082;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.footer-list-link span:hover {
+    color: #9589ad; 
+    font-size: 12.5px;
+}
